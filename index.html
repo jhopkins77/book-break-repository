@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Book Break — Recommendations</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="page">
+  <header class="top">
+    <h1>Book Break</h1>
+    <p class="subtitle">Everything the group has recommended, in one shelf.</p>
+    <nav class="tabs">
+      <a href="index.html" class="active">Gallery</a>
+      <a href="genres.html">Genres</a>
+      <a href="years.html">Years</a>
+    </nav>
+  </header>
+
+  <div class="controls">
+    <input id="search" class="search-input" type="search" placeholder="Search by title or author…" />
+  </div>
+  <div id="genreChips" class="chip-row"></div>
+  <p id="countLine" class="count-line"></p>
+
+  <div id="gallery" class="gallery"></div>
+  <p id="emptyState" class="empty-state" style="display:none;">No books match your search.</p>
+
+  <footer class="credit">Built from the Book Break recommendation log · covers via Open Library</footer>
+</div>
+
+<div id="modalBackdrop" class="modal-backdrop hidden">
+  <div class="modal" id="modalBody" role="dialog" aria-modal="true"></div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

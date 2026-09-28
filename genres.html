@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Book Break — Genres</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="page">
+  <header class="top">
+    <h1>Book Break</h1>
+    <p class="subtitle">Which genres does this group recommend most?</p>
+    <nav class="tabs">
+      <a href="index.html">Gallery</a>
+      <a href="genres.html" class="active">Genres</a>
+      <a href="years.html">Years</a>
+    </nav>
+  </header>
+
+  <div class="chart-wrap">
+    <div id="chart"></div>
+  </div>
+
+  <footer class="credit">Counts are number of book titles recommended per genre (a title with multiple mentions counts once per genre).</footer>
+</div>
+
+<script src="data.js"></script>
+<script src="genres.js"></script>
+</body>
+</html>
