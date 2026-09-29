@@ -159,8 +159,8 @@ const BOOKS = [
  },
  {
   "title": "Good People",
-  "genre": "Historical Fiction",
-  "buyLink": "https://bookshop.org/beta-search?keywords=Good%20People",
+  "genre": "Literary Fiction",
+  "buyLink": "https://bookshop.org/beta-search?bkshp-astro=t&keywords=Good+People",
   "entries": [
    {
     "recommender": "Aurelia Severa",
@@ -177,9 +177,9 @@ const BOOKS = [
     ]
    }
   ],
-  "author": "Hannah Kent",
-  "cover": "https://covers.openlibrary.org/b/id/9343983-L.jpg",
-  "year": 2016
+  "author": "Patmeena Sabit",
+  "cover": "https://images-us.bookshop.org/ingram/9798217287758.jpg?v=38f414da557809de01cca662c5145c93&width=600",
+  "year": 2026
  },
  {
   "title": "Mad Mabel",
@@ -1203,7 +1203,7 @@ const BOOKS = [
  },
  {
   "title": "Whistler",
-  "genre": "Nonfiction",
+  "genre": "Literary Fiction",
   "buyLink": "https://bookshop.org/beta-search?keywords=Whistler",
   "entries": [
    {
@@ -1213,9 +1213,9 @@ const BOOKS = [
     ]
    }
   ],
-  "author": "Daniel E. Sutherland",
-  "cover": "https://covers.openlibrary.org/b/id/13856660-L.jpg",
-  "year": 2018
+  "author": "Ann Patchett",
+  "cover": "https://covers.openlibrary.org/b/id/15234903-L.jpg",
+  "year": 2026
  },
  {
   "title": "O Caledonia",
